@@ -273,3 +273,56 @@ saludo(adios)
 Hay tres funciones de orden superior que son sumamente importantes y son clasicos.
 
 ## Filter
+
+Supongamos que tenemos una lista con los siguientes números
+
+```sql
+[1, 4, 5, 6, 9, 13, 19, 21]
+# Solución con List comprenhension
+# Un número es impar sólo si al dividirlo entre dos es diferente de cero.
+    resp = [i for i in numbers if i%2 !=0]
+    # print(resp)
+
+#Ahora vamos a resolverlo con filter
+# vamos a leer esto
+# ¿Que hace la función labda?
+# Recibe cómo parametro una x
+#  y retorna el resultado x%2 !=0 
+# Filter es una función de orden superior
+# Recibe una función (lambda funtion) y un iterable, (cualquier elemento de Python que pueda iterarse)
+# Esto retorna  un iterador
+# El List de afuera es para pasar el iterador en una lista
+
+    odd = list(filter(lambda x: x%2 !=0, numbers))
+
+    print(odd)
+```
+
+## Map
+
+De la misma manera que filter map funciona así 
+
+```sql
+# Map
+# Primeoro con list comprenhension
+    numbers = [1,2,3,4,5]
+    resp = [i**2 for i in numbers]
+    # print(resp)
+
+#Esto mismo se puede resover con map
+    squares = list(map(lambda x: x**2, numbers))
+    print(squares)
+```
+
+## Reduce
+
+Para usar reduce es necesario importar un módulo desde fun tools
+
+```sql
+from functools import reduce
+
+all_mult = reduce(lambda a,b : a * b, numb)
+    print(all_mult)
+```
+
+# 12. Filtrando datos 
