@@ -42,6 +42,8 @@ La documentación es ese espacio de información que explica detalladamente cóm
 
 [https://www.python.org/dev/peps/pep-0008/#introduction](https://www.python.org/dev/peps/pep-0008/#introduction)
 
+
+
  
 
 # 4. ****¿Qué es un entorno virtual?****
@@ -325,6 +327,7 @@ all_mult = reduce(lambda a,b : a * b, numb)
     print(all_mult)
 ```
 
+
 # 12. Filtrando datos
 
 A partir de un diccionario voy a crear diferentes filtros.
@@ -402,3 +405,4 @@ DATA = [
     },
 ]
 ```
+
