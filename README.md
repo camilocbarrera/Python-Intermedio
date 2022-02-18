@@ -446,4 +446,4 @@ La mayoría de las personas, comienza a leer de inicio hacia el final. Pero lo m
 
 # 14. Debugging
 
-Debugging o depuración, es una herramienta que traen las ides por lo general
+Debugging o depuración, es una herramienta que traen las ides por lo general se hace así
