@@ -1,3 +1,5 @@
+# Curso de Python Intermedio
+
 # 1. ****Algunas cosas que aprenderás sobre Python en este curso****
 
 Para tomar este curso se necesita un conocimiento previo, es importante si no se tiene el conocimiento esencial. Qué se tome el curso básico de python y el curso de github para manejar control de versiones y ser ordenados con nuestras clases y el código que construimos.
@@ -422,3 +424,26 @@ old_people = [ worker | {"old":worker["age"] > 70 } for worker in DATA if worker
 for x in old_people:
     print(x["name"]," tiene ", x["age"], " Es viejo ¿? ", x["old"])
 ```
+
+# 13. Los errores en el código
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6f7105ef-6db3-4889-84da-6c3bf36c687d/Untitled.png)
+
+- Para resolver los errores hay que revisarlo paso a paso linea por linea para entender en donde está el error.
+- El otro tipo de error son las excepciones. Los syntax error detienen el programa. Pueden ser typos o errores de escritura.
+- **KeyboardInterrupt:**  Excepción cuando pulsamos ctrl + c . Aquí todo se corta y se eleva una excepción. Python Crea un objeto de tipo excepción y lo va moviendo desde adentro hacia afuera.
+- **KeyError:** Cuando intentamos acceder a una llave que no existe.
+- **IndexError**:  ****Sucede cuando trabajamos con listas e intentamos acceder a un elemento que no existe.
+- **FileNotFoundError:** Cuando intentamos importar un archivo y no es encontrado
+- **ZeroDivisionError:** Error de división en cero
+- **ImportError:** Cuando no se encuentra una librería o modulo en Python
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/85341ac8-4270-4453-8054-a38d16bdf383/Untitled.png)
+
+¿Cómo se lee un traceback?
+
+La mayoría de las personas, comienza a leer de inicio hacia el final. Pero lo mejor es leer desde la ultima linea hacia arriba.
+
+# 14. Debugging
+
+Debugging o depuración, es una herramienta que traen las ides por lo general
