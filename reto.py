@@ -1,5 +1,7 @@
 import random
 
+from sympy import O
+
 
 
 
@@ -31,7 +33,8 @@ def check_word(word_input, word_ch,place_holder):
         # else:
             # print("Sorry esa palabra no está: ")
     
-    
+def print_ahorcado():
+    pass
 
 def  run():
 
@@ -53,7 +56,9 @@ def  run():
 
 
 
-
+#   O
+#  -|-
+#  / \
 
 
 if __name__ == '__main__':
