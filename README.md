@@ -423,6 +423,7 @@ old_people = [ worker | {"old":worker["age"] > 70 } for worker in DATA if worker
 
 for x in old_people:
     print(x["name"]," tiene ", x["age"], " Es viejo ¿? ", x["old"])
+    
 ```
 
 # 13. Los errores en el código
