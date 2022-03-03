@@ -2,7 +2,7 @@
 
 # 1. ****Algunas cosas que aprenderás sobre Python en este curso****
 
-Para tomar este curso se necesita un conocimiento previo, es importante si no se tiene el conocimiento esencial. Qué se tome el curso básico de python y el curso de github para manejar control de versiones y ser ordenados con nuestras clases y el código que construimos.
+Para tomar este curso se necesita un conocimiento previo, es importante sii no se tiene el conocimiento esencial. Qué se tome el curso básico de python y el curso de github para manejar control de versiones y ser ordenados con nuestras clases y el código que construimos.
 
 # 2. ****El Zen de Python****
 
